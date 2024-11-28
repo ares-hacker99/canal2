@@ -203,7 +203,7 @@ nav ul li{
 }
 
 /*section2*/
-.container, .social, .super1{
+.container, .social, .social1{
     display: flex;
     justify-content: space-between;
     gap: 5rem;
@@ -235,7 +235,7 @@ nav ul li{
     margin: 0;
     float: left;
 }    
-.super_text>h2>p{
+.social_text>h2>p{
     flex: 1;
     vertical-align:text-top;
 }
@@ -319,3 +319,35 @@ h3{
     justify-content: space-between;
     gap:1rem;
 } 
+
+/*section3*/
+.social1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    float: left;
+    padding-right: 10rem;
+    margin-right: 10rem;
+    margin-top: 4rem;
+}
+.item4{
+    
+    width: 20rem;
+    height: 20rem;
+    border: 0.1rem solid;
+    margin-bottom: 3rem;
+}
+.alie{
+    width: 20rem;
+    height: 20rem;
+}
+.canal1{
+    margin-bottom: 1rem;
+}
+.pub{
+    margin-top: 10rem;
+}
+
+/*pied-page*/
+
