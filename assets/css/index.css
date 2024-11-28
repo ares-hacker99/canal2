@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+    --primary-color: rgba(97, 130, 100, 1);
+    --secondary-color: rgba(121, 172, 120, 1);
+    --title-color: rgba(0, 14, 1, 1);
+    --text-color: rgba(0, 14, 1, 0.84);
+    --icon-color: rgba(121, 172, 120, 1);
+    --font-size: 1rem
+    --gradient: linear-gradient(10.82deg, rgba(0, 0, 0, 0.95) 1.55%, rgba(0, 0, 0, 0) 51.18%);
+    --font-family: "IBM Plex Sans Hebrew", sans-serif;
+    --neutral: #f9faf5fb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*styles généraux*/
+body{
+    height:100%;
+    width: 100%;
+    flex-direction: column;
+    overflow-x: hidden;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    display: flex;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+ul{
+    list-style:none;
+    margin-bottom: 5rem;
+}
+li{
+    display: inline;
+    margin-right: 0.7rem;
+}
+a {
+    text-decoration: none;
+    color: var(--title-color);
+}
+/*style hearder*/
+header{
+    width: 100%;
+    height: 15vh;
+    background-color: var(--neutral);
+    padding: 1rem 0;
+    text-align: center;
+}
+header>nav {
+    display: flex;
+    align-items: center;
+    height: 8rem;
+    font-size: 1.8rem;
+    width: 100%;
+}
+header>nav>ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+header>nav>ul>li>a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+    text-decoration-thickness: .2rem;
+    text-underline-offset: 1rem;
+    transition: all .3s ease-in-out;
+}
+nav ul{
+    margin-bottom: 0.5rem;
+}
+nav ul li{
+    display: inline-block;
+}
+.nav-button>a {
+    padding: 1rem 3rem;
+    margin-right: 1rem;
+    border-radius: 5rem;
+    color: var(--neutral);
+    background-color: var(--primary-color);
+    font-weight: bold;
+    float: right;
+}
+.nav-button>a:hover {
+    background-color: var(--secondary-color);
+    transition: all .3s ease-in-out;
+}
+.nav-resp {
+    display: none;
+    visibility: hidden;
+}
+.logo{
+    float: left;
+}
+.nav{
+    text-align: center;
+    align-items: center;
+}
