@@ -8,8 +8,8 @@ exemple de page web pour le site web de la télévision calanal 2 international
 -[@ares-hacker99](https://www.github.com/ares-hacker99)
 ## Color Reference
 
-| Color             | rgb                                                                |
-| ----------------- | ------------------------------------------------------------------ |
+| Color             | rgb                     |
+| ----------------- | ----------------------- |
 | primary-color | rgba(97, 130, 100, 1); |
 | secondary-color |rgba(121, 172, 120, 1); |
 | title-color |rgb(14, 6, 0); |
