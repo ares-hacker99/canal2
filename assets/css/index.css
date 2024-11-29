@@ -351,3 +351,127 @@ h3{
 
 /*pied-page*/
 
+footer{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    width: 100rem;
+    height: 25rem;
+    background-color: var(--secondary-color);
+}
+.foot{
+    margin-top:1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 10rem;
+    margin-right: 25rem;
+}
+.foot_logo{
+    flex: 1;
+    width: 20rem;
+    height: 15rem;
+    font-size: 10rem;
+}
+.foot_icon>img{
+    display: inline-flex;
+   justify-content: space-between;
+   margin: 2rem;
+   align-items: center;
+   color: var(--neutral);
+   width: 3rem;
+ flex: 1;
+}
+
+
+/*ecran de 600px maxi */
+@media only screen and (max-width: 600px) {
+    header>nav>ul,
+    .nav-button {
+        display: none;
+        visibility: hidden;
+    }
+    header>nav {
+        justify-content: space-between;
+         padding: 0;
+    }
+    .nav-resp {
+        display: inline-block;
+        visibility: visible;
+        color: var(--primary-color);
+        padding-right: 1rem;
+    }
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10rem;
+    }
+    
+    .ngannou {
+        flex: 1;
+        border-radius: 0;
+    }
+    .ngannou_text>h1 {
+        color: black;
+        font-size: 1.5rem;
+        width: 90%;
+    }
+    .ngannou_text>p {
+        color: var(--secondary-color);
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+    }
+    .article {
+        flex: 1;
+    }
+    .ngannou_text {
+        bottom: 1rem;
+        left: 1rem;
+    }
+    .article_text>p, .social_text>p{
+        padding-left: 0rem;
+        font-size: 1rem;
+    }
+    .article_text>h2, .social_text>h3 {
+        margin-right: 3rem;
+        padding-left: 0rem;
+        font-size: 1rem;
+    }
+    .article_item, .item  {
+        width: 100%;    
+    }
+    .article_image>img, .social_item>img{
+        width: 70%;
+        float: left;
+    }
+    .article_item, .social1{
+        height: 15rem;
+    }
+    .container, .social1{
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+        justify-content: space-around;
+    }
+  .social_item, .youtube_item, .programme_item, .youtube_text, .A1, .programme_icon>img,
+  .social_item, .item4, .super_item, .programme_matin, .you_pub, .c{
+    visibility: none;
+    display: none;
+  }
+    
+  .social_text, .dad1{
+    align-items: center;
+    text-align: center;
+  }
+  .grand-titre{
+    margin-top: 3rem;
+    padding-top: 0rem;
+  }
+ .foot{
+    display: flex;
+    align-items: center;
+    text-align: center;
+ }
+}
