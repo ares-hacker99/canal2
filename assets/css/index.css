@@ -3,7 +3,7 @@
 :root {
     --primary-color: rgba(97, 130, 100, 1);
     --secondary-color: rgba(121, 172, 120, 1);
-    --title-color: rgba(0, 14, 1, 1);
+    --title-color: rgb(14, 6, 0);
     --text-color: rgba(0, 14, 1, 0.84);
     --icon-color: rgba(121, 172, 120, 1);
     --font-size: 1rem
